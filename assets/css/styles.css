@@ -1,4 +1,4 @@
-/* Aplicar Roboto en toda la página */
+/* Roboto */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #F8F9FA;
@@ -28,14 +28,14 @@ body {
     padding: 20px;
 }
 
-/* Fuente para el título del producto */
+/* título del producto */
 .card-title {
     font-weight: 500;
     font-size: 18px;
     color: #212529;
 }
 
-/* Fuente para el nombre del negocio */
+/* Fuente para abajo del titulo */
 .text-muted.font-weight-bold {
     font-size: 13px;
     color: #707070 !important;

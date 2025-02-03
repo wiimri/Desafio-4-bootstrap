@@ -1,0 +1,71 @@
+/* Aplicar Roboto en toda la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Fuente para el título del producto */
+.card-title {
+    font-weight: 500;
+    font-size: 18px;
+    color: #212529;
+}
+
+/* Fuente para el nombre del negocio */
+.text-muted.font-weight-bold {
+    font-size: 13px;
+    color: #707070 !important;
+}
+
+/* Fuente para la dirección */
+.text-muted.small {
+    font-size: 13px;
+    color: #707070;
+}
+
+/* Línea separadora */
+hr {
+    border-top: 1px solid #ddd;
+    margin: 8px 0;
+}
+
+/* Precio con descuento */
+.text-success {
+    font-weight: bold;
+}
+
+/* Botón del formulario */
+.btn-light {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    color: #212529;
+    font-size: 14px;
+}
